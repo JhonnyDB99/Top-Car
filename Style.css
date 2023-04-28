@@ -1,0 +1,24 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  margin: 20px 0px;
+}
+.card-item {
+  width: 150vh;
+  display: inline-block;
+  margin: 30px 0px;
+  padding: 1rem 1.6rem;
+  align-items: center;
+}
+.img-fluid {
+  width: 220vh;
+  height: 50vh;
+  background: cover;
+}
