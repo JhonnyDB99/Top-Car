@@ -1,24 +1,52 @@
-.body {
-  font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
 }
-.container {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  display: inline-block;
-  margin: 20px 0px;
+
+h1 {
+  text-align: center;
 }
-.card-item {
-  width: 150vh;
-  display: inline-block;
-  margin: 30px 0px;
-  padding: 1rem 1.6rem;
-  align-items: center;
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.img-fluid {
-  width: 220vh;
-  height: 50vh;
-  background: cover;
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: yellow;
 }
